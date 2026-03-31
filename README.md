@@ -139,7 +139,7 @@ g++ -O3 -std=c++11 -pthread -o main_grid main_grid.cpp Graph.cpp BitMap.cpp Hash
 
 这会遍历所有 mu × (c, f) 组合，将结果写入一个 CSV 文件。
 
-> **注意**：`extension/` 目录中还包含多个批量实验脚本（`run*.sh`）和辅助 Python 脚本（`ari.py`、`csv.py`、`sample_friend_subgraphs.py`），使用前请修改脚本中的数据路径配置。
+> **注意**：`extension/` 目录中还包含辅助 Python 脚本（`ari.py`、`csv.py`、`sample_friend_subgraphs.py`）和批量运行脚本 `run.sh`，使用前请修改脚本中的数据路径配置。
 
 ---
 
